@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-@Component({
+@Component({ 
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <app-customers></app-customers>
+  `
 })
-export class AppComponent {
-  title = 'angular-order-list';
+export class AppComponent implements OnInit {
+  constructor() { }
+
+  ngOnInit() {
+
+  }
+  
 }
