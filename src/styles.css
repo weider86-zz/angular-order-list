@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  margin: 0 !important;
-  padding: 0 !important;
-  outline: none !important;
-  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%; 
+  height: 100vh; 
+  padding-top: 70px !important;
 }
